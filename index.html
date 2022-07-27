@@ -6,50 +6,60 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <div id="nav">
-      <div id="bun" class="topping" data-ingredient="bun" data-price="0.00">Bun</div>
-      <div id="tomato" class="topping" data-ingredient="tomato" data-price="0.30">
-        Tomato
+      <!--    Ingredients nav    -->
+      <div id="nav">
+        <div id="Tomato" class="topping" data-ingredient="Tomato" data-price="0.30">
+          Tomato
+          <br>
+          <strong>$0.30</strong>
+        </div>
+        <div id="Lettuce" class="topping" data-ingredient="Lettuce" data-price="0.00">
+          Lettuce
+          <br>
+          <strong>Free :)</strong>
+        </div>
+        <div id="Cheese" class="topping" data-ingredient="Cheese" data-price="0.75">
+          Cheese
+          <br>
+          <strong>$0.75</strong>
+        </div>
+        <div id="Patty" class="topping" data-ingredient="Patty" data-price="1.25">Patty
+          <br>
+          <strong>$1.25</strong>
+        </div>
       </div>
-      <div id="lettuce" class="topping" data-ingredient="lettuce" data-price="0.00">
-        Lettuce
-      </div>
-      <div id="cheese" class="topping" data-ingredient="cheese" data-price="0.75">
-        Cheese
-      </div>
-      <div id="patty" class="topping" data-ingredient="patty" data-price="1.25">Patty</div>
-    </div>
+    
+ >
+
     
     <div id="wrapper">
       <div class="order">
-        <div class="topping bun" data-ingredient="bun" data-price="0.00">
+        <div class="topping Bun" data-ingredient="bun" data-price="0.00">
           Bun
         </div>
         <!-- line 29 has THREE different classes, class: (1) topping ; (2) bun ; (3) bottom -->
-        <div class="topping bun bottom" data-ingredient="bun" data-price="0.00">
+        <div class="topping Bun Bottom" data-ingredient="bun" data-price="0.00">
           Bun
         </div>
-        <div class="topping tomato" data-ingredient="tomato" data-price="0.30">
+        <div class="topping Tomato" data-ingredient="tomato" data-price="0.30">
           Tomato
         </div>
         <div
-          class="topping lettuce"
-          data-ingredient="lettuce"
-          data-price="0.00"
+          class="topping Lettuce" data-ingredient="lettuce" data-price="0.00"
         >
           Lettuce
         </div>
-        <div class="topping cheese" data-ingredient="cheese" data-price="0.75">
+        <div class="topping Cheese" data-ingredient="cheese" data-price="0.75">
           Cheese
         </div>
-        <div class="topping patty" data-ingredient="patty" data-price="1.25">
+        <div class="topping Patty" data-ingredient="patty" data-price="1.25">
           Patty
         </div>
       </div>
       <div id="checkout">
         <div class="button">Check out</div>
       </div>
-        <div id="total"></div>
+        <div class="box hidden" id="total"></div>
     </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
